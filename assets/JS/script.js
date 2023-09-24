@@ -6,8 +6,14 @@ document.getElementById("output").value=showNumbers
 
 }
 function showResult(){
-    let result=eval(showNumbers)
-    document.getElementById("output").value=result  //eval() is a function that takes in the string and evaluates it as javascript code       
+    // let result=eval(showNumbers)
+    // document.getElementById("output").value=result 
+    try {
+        let result=eval(showNumbers)
+    document.getElementById("output").value=result 
+    } catch (error) {
+        document.getElementById("output").value="error"
+    }      
 }
 function clearDisplay() {
     location.reload()
