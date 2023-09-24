@@ -1,11 +1,12 @@
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', monospace;
 }
 .shape{
+    font-family: 'Courier New', monospace;
     margin-left:34%;
     border: 1px solid black;
-    height: 470px;
-    width: 400px;
+    height: 400px;
+    width: 290px;
     border-radius: 20px;
     background-color: #395b64;
     
@@ -18,6 +19,27 @@ h1{
     border-bottom-right-radius: 40px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background-color: black;
-   
+    background-color: black;  
+}
+
+#output{
+    margin-left: 45px;
+}
+.buttons{
+    margin-left: 53px;
+    margin-top: 45px;  
+}
+button{
+    width:40px;  
+    height:30px;  
+    border:1px solid;  
+     
+
+}
+button:hover{
+    cursor:pointer;  
+    border:2px solid #139020; 
+}
+#btns-1{
+    margin-left: 23px;
 }

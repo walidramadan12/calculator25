@@ -12,7 +12,7 @@ function showResult(){
         let result=eval(showNumbers)
     document.getElementById("output").value=result 
     } catch (error) {
-        document.getElementById("output").value="error"
+        document.getElementById("output").value="Math Error"
     }      
 }
 function clearDisplay() {
